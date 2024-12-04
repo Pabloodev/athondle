@@ -1,0 +1,139 @@
+{
+  "workers": [
+    {
+      "id": "1",
+      "nome": "felipe",
+      "idade": "29",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190551/felipe_hdzi6s.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "pablo",
+      "idade": "20",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190551/pablo_b6s5fz.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "caina",
+      "idade": "21",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista pleno",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190550/caina_cuyjam.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "bruno",
+      "idade": "23",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190549/bruno_c74uvj.jpg"
+    },
+    {
+      "id": "5",
+      "nome": "vitoria",
+      "idade": "25",
+      "sexo": "mulher",
+      "setor": "n2",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190549/vitoria_ynnhgb.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "pedro",
+      "idade": "19",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190556/pedro_evgnbv.jpg"
+    },
+    {
+      "id": "7",
+      "nome": "kaicky",
+      "idade": "20",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190555/kaicky_qppe0j.jpg"
+    },
+    {
+      "id": "8",
+      "nome": "matheus",
+      "idade": "21",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190558/matheus_oydhmd.jpg"
+    },
+    {
+      "id": "9",
+      "nome": "vinicius barreto",
+      "idade": "21",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190557/vinicius-barreto_jlfpaz.jpg"
+    },
+    {
+      "id": "10",
+      "nome": "guilherme",
+      "idade": "24",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "analista pleno",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190554/guilherme_ltzota.jpg"
+    },
+    {
+      "id": "11",
+      "nome": "ingrid",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "financeiro",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190553/ingrid_dogqud.jpg"
+    },
+    {
+      "id": "12",
+      "nome": "beatriz",
+      "idade": "24",
+      "sexo": "mulher",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190552/beatriz_j8vpmd.jpg"
+    },
+    {
+      "id": "13",
+      "nome": "gustavo",
+      "idade": "18",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190556/gustavo_e1eyid.jpg"
+    },
+    {
+      "id": "14",
+      "nome": "vinicius alves",
+      "idade": "26",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista pleno",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733272315/vinicius-alves_mthwbo.jpg"
+    }
+  ],
+  "daily": {
+    "id": "10",
+    "nome": "guilherme",
+    "idade": "24",
+    "sexo": "homem",
+    "setor": "redes",
+    "cargo": "analista pleno",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190554/guilherme_ltzota.jpg"
+  }
+}
