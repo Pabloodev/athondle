@@ -1,0 +1,34 @@
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 500px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.308);
+  padding: 30px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.inputContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.inputWorker {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.308);
+  width: 80%;
+  font-size: 18px;
+  color: white;
+}
+
+.inputWorker::placeholder {
+  color: rgba(255, 255, 255, 0.658);
+  text-align: center;
+}

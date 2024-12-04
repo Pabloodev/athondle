@@ -1,0 +1,101 @@
+
+.gameContainer {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 80px;
+  font-size: 22px;
+}
+
+.winMessage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1E293B;
+  width: 500px;
+  text-align: center;
+  height: 500px;
+  border: 1px solid rgba(255, 255, 255, 0.359);
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: float 4s;
+}
+
+.winMessage span {
+  font-size: 22px;
+}
+
+.winMessage img {
+  border: 1px solid white;
+}
+
+h2 {
+  font-size: 35px;
+  position: fixed;
+  top: 5%;
+}
+
+.titleWinMessage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px
+}
+
+.buttonUp {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonUp:hover {
+  transform: scale(1.1);
+}
+
+.tomorrowMessage {
+  color: rgba(19, 209, 61, 0.678);
+}
+
+.footerMsg {
+  position: fixed;
+  bottom: 1%;
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(-200%);
+  }
+  50% {
+      transform: translateY(-10);
+  }
+  100% {
+      transform: translateY(-5);
+  }
+}
+
+@keyframes appear {
+  0% {
+      opacity: 0%;;
+  }
+  50% {
+      opacity: 50%;;
+  }
+  100% {
+      opacity: 100%;
+  }
+}

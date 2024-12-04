@@ -1,0 +1,35 @@
+
+.selectWorker {
+  position: relative;
+  top: 5%;
+  margin-top: 10px;
+  width: 500px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.308);
+  border-radius: 15px;
+  padding: 2px;
+  background-color: #1E293B;
+}
+
+.selectWorker button img {
+  width: 65px;
+}
+
+.selectWorker button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  padding: 5px 100px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.selectWorker button:hover {
+  background-color: #212f46c9;
+}
