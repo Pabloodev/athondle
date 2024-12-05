@@ -20,7 +20,7 @@ export default function Athondle() {
   useEffect(() => {
     const fetchWorkers = async () => {
       try {
-        const response = await fetch("athondle/db.json");
+        const response = await fetch("./db.json");
         const data = await response.json();
         setData(data.workers);
         setDailyWorker(data.daily);
