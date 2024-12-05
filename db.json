@@ -125,6 +125,33 @@
       "setor": "n2",
       "cargo": "analista pleno",
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733272315/vinicius-alves_mthwbo.jpg"
+    },
+    {
+      "id": "15",
+      "nome": "carolina",
+      "idade": "23",
+      "sexo": "mulher",
+      "setor": "redes",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410234/carolina_qfdqqo.jpg"
+    },
+    {
+      "id": "16",
+      "nome": "bianca",
+      "idade": "26",
+      "sexo": "mulher",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410434/bianca_naadtx.jpg"
+    },
+    {
+      "id": "17",
+      "nome": "samuel",
+      "idade": "21",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410729/samuel_qk4mgo.jpg"
     }
   ],
   "daily": {
