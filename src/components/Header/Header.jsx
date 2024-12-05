@@ -1,11 +1,10 @@
 import './Header.css'
-import photo from  '../../assets/athon-logo.jpg'
-import { CloudSnow } from 'lucide-react'
+import logo from '/athon-logo.jpg'
 
 export default function Header() {
     return (
         <div className="header">
-            <img className="imgLogo" src={photo} alt="" />
+            <img src={logo} alt="" />
             <h1 className="textLogo">Quem sou eu?</h1>
         </div>
     )

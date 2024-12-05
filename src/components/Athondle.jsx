@@ -13,7 +13,6 @@ export default function Athondle() {
   const [filtredWorker, setFiltredWorker] = useState([]);
   const [dailyWorker, setDailyWorker] = useState(null);
   const [isClicked, setIsClicked] = useState(false);
-  const [selectedWorker, setSelectedWorker] = useState([]);
   const [workerChoosed, setWorkerChoosed] = useState([]);
   const [winMessage, setWinMessage] = useState("");
 
@@ -21,7 +20,7 @@ export default function Athondle() {
   useEffect(() => {
     const fetchWorkers = async () => {
       try {
-        const response = await fetch("/db.json");
+        const response = await fetch("athondle/db.json");
         const data = await response.json();
         setData(data.workers);
         setDailyWorker(data.daily);
@@ -74,7 +73,6 @@ export default function Athondle() {
 
   const handleClick = (worker) => {
     setIsClicked(true);
-    setSelectedWorker(worker);
 
     if (!workerChoosed.includes(worker)) {
       setWorkerChoosed((prevChoosed) => [...prevChoosed, worker]);
