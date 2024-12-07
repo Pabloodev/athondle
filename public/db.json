@@ -152,15 +152,33 @@
       "setor": "redes",
       "cargo": "analista junior",
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410729/samuel_qk4mgo.jpg"
+    },
+    {
+      "id": "18",
+      "nome": "jeferson",
+      "idade": "43",
+      "sexo": "homem",
+      "setor": "qualidade",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733536152/jeferson_yznxzt.jpg"
+    },
+    {
+      "id": "19",
+      "nome": "hillary",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733536152/hillary_cl64g2.jpg"
     }
   ],
   "daily": {
-    "id": "5",
-    "nome": "vitoria",
-    "idade": "25",
+    "id": "19",
+    "nome": "hillary",
+    "idade": "19",
     "sexo": "mulher",
-    "setor": "n2",
+    "setor": "n1",
     "cargo": "supervisao",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190549/vitoria_ynnhgb.jpg"
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733536152/hillary_cl64g2.jpg"
   }
 }

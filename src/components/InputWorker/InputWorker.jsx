@@ -11,7 +11,7 @@ export default function InputWorker ({ inputedWorker, handleChange }) {
             value={inputedWorker}
             onChange={handleChange}
             type="text"
-            placeholder="Escreva o funcionário..."
+            placeholder="Comece digitando um funcionário"
           />
           <button className="sendButton">
             <SendHorizontal color="#fff" />
