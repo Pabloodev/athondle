@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import InputWorker from "./InputWorker/InputWorker";
 import SelectWorker from "./SelectWorker/SelectWorker";
 import ResultWorker from "./ResultWorker/ResultWorker";
+import Footer from "./Footer/Footer";
 
 import { useState, useEffect } from "react";
 import { SquareChevronUp } from "lucide-react";
@@ -106,6 +107,7 @@ export default function Athondle() {
             <img src={dailyWorker.img} alt="" />
           </div>
           <span className="tomorrowMessage">Jogue novamente amanhã</span>
+          <p>O jogo pode melhorar em algo? deixa seu feedback em <a target="_blank" href="https://forms.gle/HiP4MBPdFMmyoRCe9">Athondle feedback</a></p>
         </div>
       )}
 
@@ -117,7 +119,7 @@ export default function Athondle() {
         </button>
       </div>
 
-      <span className="footerMsg">code by pablodev &copy;</span>
+      <Footer />
     </div>
   );
 }

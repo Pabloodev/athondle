@@ -69,11 +69,7 @@ h2 {
 
 .tomorrowMessage {
   color: rgba(19, 209, 61, 0.678);
-}
-
-.footerMsg {
-  position: fixed;
-  bottom: 1%;
+  margin-bottom: 30px;
 }
 
 @keyframes float {
