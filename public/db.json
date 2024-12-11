@@ -191,12 +191,12 @@
     }
   ],
   "daily": {
-    "id": "16",
-    "nome": "bianca",
-    "idade": "26",
-    "sexo": "mulher",
-    "setor": "n2",
-    "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410434/bianca_naadtx.jpg"
+    "id": "18",
+    "nome": "jeferson",
+    "idade": "43",
+    "sexo": "homem",
+    "setor": "qualidade",
+    "cargo": "supervisao",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733536152/jeferson_yznxzt.jpg"
   }
 }
