@@ -184,19 +184,91 @@
       "id": "21",
       "nome": "rai",
       "idade": "25",
-      "sexo": "mulher",
+      "sexo": "homem",
       "setor": "NOC",
       "cargo": "Suporte III",
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733700197/rai_oecqml.jpg"
+    },
+    {
+      "id": "22",
+      "nome": "brunelle",
+      "idade": "22",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "analista junior",
+      "img": "colocar"
+    },
+    {
+      "id": "23",
+      "nome": "gabriela",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "comercial",
+      "cargo": "promotor de vendas",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/gabriela_zsxkdx.jpg"
+    },
+    {
+      "id": "24",
+      "nome": "manuela",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "comercial",
+      "cargo": "promotor de vendas",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/manuela_wrlyym.jpg"
+    },
+    {
+      "id": "25",
+      "nome": "joao",
+      "idade": "22",
+      "sexo": "homem",
+      "setor": "qualidade",
+      "cargo": "auxiliar adm",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052968/joao_fpg1s2.jpg"
+    },
+    {
+      "id": "26",
+      "nome": "daniel",
+      "idade": "18",
+      "sexo": "homem",
+      "setor": "comercial",
+      "cargo": "promotor de vendas",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/daniel_hjx11w.jpg"
+    },
+    {
+      "id": "26",
+      "nome": "geovanna",
+      "idade": "22",
+      "sexo": "mulher",
+      "setor": "comercial",
+      "cargo": "promotor de vendas",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/geovanna_e9e42e.jpg"
+    },
+    {
+      "id": "27",
+      "nome": "ana paula jesus",
+      "idade": "33",
+      "sexo": "mulher",
+      "setor": "comercial",
+      "cargo": "promotor de vendas",
+      "img": "colocar"
+    },
+    {
+      "id": "28",
+      "nome": "leidiane",
+      "idade": "25",
+      "sexo": "mulher",
+      "setor": "21",
+      "cargo": "auxiliar adm",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/leidiane_frowsc.jpg"
     }
   ],
   "daily": {
-    "id": "18",
-    "nome": "jeferson",
-    "idade": "43",
-    "sexo": "homem",
-    "setor": "qualidade",
-    "cargo": "supervisao",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733536152/jeferson_yznxzt.jpg"
+    "id": "28",
+    "nome": "leidiane",
+    "idade": "25",
+    "sexo": "mulher",
+    "setor": "21",
+    "cargo": "auxiliar adm",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/leidiane_frowsc.jpg"
   }
 }
