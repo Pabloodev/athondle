@@ -1,14 +1,18 @@
+// General Imports
 import "./Athondle.css";
+import { useState, useEffect } from "react";
+import { SquareChevronUp } from "lucide-react";
+
+// Import Components
 import Header from "./Header/Header";
 import InputWorker from "./InputWorker/InputWorker";
 import SelectWorker from "./SelectWorker/SelectWorker";
 import ResultWorker from "./ResultWorker/ResultWorker";
 import Footer from "./Footer/Footer";
 
-import { useState, useEffect } from "react";
-import { SquareChevronUp } from "lucide-react";
 
 export default function Athondle() {
+  // Dec states
   const [data, setData] = useState([]);
   const [inputedWorker, setInputedWorker] = useState("");
   const [filtredWorker, setFiltredWorker] = useState([]);
@@ -16,7 +20,7 @@ export default function Athondle() {
   const [isClicked, setIsClicked] = useState(false);
   const [workerChoosed, setWorkerChoosed] = useState([]);
   const [winMessage, setWinMessage] = useState("");
-
+  const [partialMatchMessage, setPartialMatchMessage] = useState("");
 
   useEffect(() => {
     const fetchWorkers = async () => {
@@ -32,7 +36,6 @@ export default function Athondle() {
     fetchWorkers();
   }, []);
 
-
   const checkAttributes = (worker) => {
     if (!dailyWorker) return;
 
@@ -44,7 +47,6 @@ export default function Athondle() {
       cargo: worker.cargo === dailyWorker.cargo,
     };
   };
-
 
   const checkIfCorrect = (worker) => {
     if (!dailyWorker) return false;
@@ -73,6 +75,7 @@ export default function Athondle() {
   };
 
   const handleClick = (worker) => {
+    setPartialMatchMessage("")
     setIsClicked(true);
 
     if (!workerChoosed.includes(worker)) {
@@ -81,6 +84,20 @@ export default function Athondle() {
 
     if (checkIfCorrect(worker)) {
       setWinMessage("Vitória");
+    } else {
+      const attributes = checkAttributes(worker);
+      const allMatchExceptName =
+        attributes.sexo &&
+        attributes.setor &&
+        attributes.idade &&
+        attributes.cargo &&
+        !attributes.nome;
+
+      if (allMatchExceptName) {
+        setPartialMatchMessage(
+          "Todos os atributos coincidem, mas este não é o funcionário correto!"
+        );
+      }
     }
 
     setInputedWorker("");
@@ -90,14 +107,21 @@ export default function Athondle() {
   return (
     <div className="gameContainer">
       <Header />
-      <InputWorker inputedWorker={inputedWorker} handleChange={handleChange}/>
+      <InputWorker inputedWorker={inputedWorker} handleChange={handleChange} />
       {filtredWorker.length > 0 && (
-        <SelectWorker filtredWorker={filtredWorker} handleClick={handleClick}/>
+        <SelectWorker filtredWorker={filtredWorker} handleClick={handleClick} />
       )}
       {isClicked && (
-        <ResultWorker workerChoosed={workerChoosed} checkAttributes={checkAttributes}/>
+        <ResultWorker
+          workerChoosed={workerChoosed}
+          checkAttributes={checkAttributes}
+        />
       )}
-      
+      {partialMatchMessage && (
+        <div className="partialMatchMessage">
+          <span>{partialMatchMessage}</span>
+        </div>
+      )}
       {winMessage && (
         <div className="winMessage">
           <h2>Vitória</h2>
@@ -107,7 +131,12 @@ export default function Athondle() {
             <img src={dailyWorker.img} alt="" />
           </div>
           <span className="tomorrowMessage">Jogue novamente amanhã</span>
-          <p>O jogo pode melhorar em algo? deixa seu feedback em <a target="_blank" href="https://forms.gle/HiP4MBPdFMmyoRCe9">Athondle feedback</a></p>
+          <p>
+            O jogo pode melhorar em algo? deixa seu feedback em{" "}
+            <a target="_blank" href="https://forms.gle/HiP4MBPdFMmyoRCe9">
+              Athondle feedback
+            </a>
+          </p>
         </div>
       )}
 
@@ -118,7 +147,6 @@ export default function Athondle() {
           </a>
         </button>
       </div>
-
       <Footer />
     </div>
   );
