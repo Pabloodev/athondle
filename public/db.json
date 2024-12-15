@@ -178,7 +178,7 @@
       "sexo": "homem",
       "setor": "n2",
       "cargo": "analista junior",
-      "img": ""
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734223257/alex_zdityq.jpg"
     },
     {
       "id": "21",
@@ -196,7 +196,7 @@
       "sexo": "mulher",
       "setor": "n1",
       "cargo": "analista junior",
-      "img": "colocar"
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734223257/brunelle_qdxcpr.jpg"
     },
     {
       "id": "23",
@@ -263,12 +263,12 @@
     }
   ],
   "daily": {
-    "id": "24",
-    "nome": "manuela",
-    "idade": "19",
-    "sexo": "mulher",
-    "setor": "comercial",
-    "cargo": "promotor de vendas",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/manuela_wrlyym.jpg"
+    "id": "17",
+    "nome": "samuel",
+    "idade": "21",
+    "sexo": "homem",
+    "setor": "redes",
+    "cargo": "analista junior",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410729/samuel_qk4mgo.jpg"
   }
 }
