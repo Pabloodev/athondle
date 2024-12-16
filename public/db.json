@@ -235,7 +235,7 @@
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/daniel_hjx11w.jpg"
     },
     {
-      "id": "26",
+      "id": "27",
       "nome": "geovanna",
       "idade": "22",
       "sexo": "mulher",
@@ -244,31 +244,40 @@
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/geovanna_e9e42e.jpg"
     },
     {
-      "id": "27",
+      "id": "28",
       "nome": "ana paula jesus",
       "idade": "33",
       "sexo": "mulher",
       "setor": "comercial",
       "cargo": "promotor de vendas",
-      "img": "colocar"
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300993/sem-foto_ia5yk2.jpg"
     },
     {
-      "id": "28",
+      "id": "29",
       "nome": "leidiane",
       "idade": "25",
       "sexo": "mulher",
       "setor": "n1",
       "cargo": "auxiliar adm",
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/leidiane_frowsc.jpg"
+    },
+    {
+      "id": "30",
+      "nome": "ariane",
+      "idade": "25",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300826/ariane_fguqwy.jpg"
     }
   ],
   "daily": {
-    "id": "17",
-    "nome": "samuel",
+    "id": "3",
+    "nome": "caina",
     "idade": "21",
     "sexo": "homem",
-    "setor": "redes",
-    "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410729/samuel_qk4mgo.jpg"
+    "setor": "n2",
+    "cargo": "analista pleno",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190550/caina_cuyjam.jpg"
   }
 }
