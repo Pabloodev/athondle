@@ -272,12 +272,12 @@
     }
   ],
   "daily": {
-    "id": "3",
-    "nome": "caina",
-    "idade": "21",
-    "sexo": "homem",
-    "setor": "n2",
-    "cargo": "analista pleno",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190550/caina_cuyjam.jpg"
+    "id": "11",
+    "nome": "ingrid",
+    "idade": "19",
+    "sexo": "mulher",
+    "setor": "financeiro",
+    "cargo": "analista junior",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190553/ingrid_dogqud.jpg"
   }
 }
