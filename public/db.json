@@ -269,15 +269,24 @@
       "setor": "n1",
       "cargo": "analista junior",
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300826/ariane_fguqwy.jpg"
+    },
+    {
+      "id": "31",
+      "nome": "keyla",
+      "idade": "23",
+      "sexo": "mulher",
+      "setor": "financeiro",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734478384/keyla_glluty.jpg"
     }
   ],
   "daily": {
-    "id": "11",
-    "nome": "ingrid",
-    "idade": "19",
-    "sexo": "mulher",
-    "setor": "financeiro",
-    "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190553/ingrid_dogqud.jpg"
+    "id": "26",
+    "nome": "daniel",
+    "idade": "18",
+    "sexo": "homem",
+    "setor": "comercial",
+    "cargo": "promotor de vendas",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/daniel_hjx11w.jpg"
   }
 }
