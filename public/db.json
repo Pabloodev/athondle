@@ -281,12 +281,12 @@
     }
   ],
   "daily": {
-    "id": "26",
-    "nome": "daniel",
-    "idade": "18",
+    "id": "25",
+    "nome": "joao",
+    "idade": "22",
     "sexo": "homem",
-    "setor": "comercial",
-    "cargo": "promotor de vendas",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/daniel_hjx11w.jpg"
+    "setor": "qualidade",
+    "cargo": "auxiliar adm",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052968/joao_fpg1s2.jpg"
   }
 }
