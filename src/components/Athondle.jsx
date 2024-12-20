@@ -22,6 +22,8 @@ export default function Athondle() {
   const [winMessage, setWinMessage] = useState("");
   const [partialMatchMessage, setPartialMatchMessage] = useState("");
 
+  const [symbolAge, setSymbolAge] = useState()
+
   useEffect(() => {
     const fetchWorkers = async () => {
       try {
@@ -36,6 +38,15 @@ export default function Athondle() {
     fetchWorkers();
   }, []);
 
+  const getAgeArrow = (idade) => {
+    setSymbolAge("")
+    if (idade < dailyWorker.idade) {
+      setSymbolAge("🔼");
+    } else {
+      setSymbolAge("🔽");
+    }
+  }
+  
   const checkAttributes = (worker) => {
     if (!dailyWorker) return;
 
@@ -61,8 +72,10 @@ export default function Athondle() {
   };
 
   const handleChange = (e) => {
+
     const newInputedValue = e.target.value;
     setInputedWorker(newInputedValue);
+
     if (newInputedValue.trim() !== "") {
       setFiltredWorker(
         data.filter((worker) =>
@@ -83,8 +96,10 @@ export default function Athondle() {
     }
 
     if (checkIfCorrect(worker)) {
+      setSymbolAge("")
       setWinMessage("Vitória");
     } else {
+      getAgeArrow(worker.idade)
       const attributes = checkAttributes(worker);
       const allMatchExceptName =
         attributes.sexo &&
@@ -115,6 +130,7 @@ export default function Athondle() {
         <ResultWorker
           workerChoosed={workerChoosed}
           checkAttributes={checkAttributes}
+          symbolAge={symbolAge}
         />
       )}
       {partialMatchMessage && (

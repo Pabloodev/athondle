@@ -1,6 +1,6 @@
 import "./ResultWorker.css";
 
-export default function ResultWorker({ workerChoosed, checkAttributes }) {
+export default function ResultWorker({ workerChoosed, checkAttributes, symbolAge }) {
   return (
     <div className="resultContainer">
       <ul className="resultListContainer">
@@ -25,7 +25,7 @@ export default function ResultWorker({ workerChoosed, checkAttributes }) {
                 {worker.setor}
               </span>
               <span className={result.idade ? "correct box" : "incorrect box"}>
-                {worker.idade}
+                {worker.idade + symbolAge}
               </span>
               <span className={result.cargo ? "correct box" : "incorrect box"}>
                 {worker.cargo}
