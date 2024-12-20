@@ -15,7 +15,7 @@
 
 ## Thecnologies installeds
 
-- Reac
+- React
 
 - Vite
 
