@@ -317,12 +317,12 @@
     }
   ],
   "daily": {
-    "id": "35",
-    "nome": "henrique richert",
-    "idade": "19",
+    "id": "32",
+    "nome": "daniel delbon",
+    "idade": "26",
     "sexo": "homem",
-    "setor": "n1",
-    "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734745171/henrique_x50zxk.jpg"
+    "setor": "qualidade",
+    "cargo": "auxiliar adm",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734652774/daniel_pkt4pr.jpg"
   }
 }
