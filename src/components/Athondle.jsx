@@ -1,9 +1,7 @@
-// General Imports
 import "./Athondle.css";
 import { useState, useEffect } from "react";
 import { SquareChevronUp } from "lucide-react";
 
-// Import Components
 import Header from "./Header/Header";
 import InputWorker from "./InputWorker/InputWorker";
 import SelectWorker from "./SelectWorker/SelectWorker";
@@ -12,7 +10,6 @@ import Footer from "./Footer/Footer";
 
 
 export default function Athondle() {
-  // Dec states
   const [data, setData] = useState([]);
   const [inputedWorker, setInputedWorker] = useState("");
   const [filtredWorker, setFiltredWorker] = useState([]);
