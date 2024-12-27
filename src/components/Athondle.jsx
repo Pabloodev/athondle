@@ -35,15 +35,19 @@ export default function Athondle() {
     fetchWorkers();
   }, []);
 
+  // Função para verificar se a idade do funcionário escolhido é maior ou menor que a idade do funcionário do dia
   const getAgeArrow = (idade) => {
     setSymbolAge("")
     if (idade < dailyWorker.idade) {
       setSymbolAge("🔼");
-    } else {
+    } else if (idade > dailyWorker.idade) {
       setSymbolAge("🔽");
+    } else {
+      setSymbolAge("");
     }
   }
   
+  // Função para verificar se os atributos do funcionário escolhido são iguais aos atributos do funcionário do dia
   const checkAttributes = (worker) => {
     if (!dailyWorker) return;
 
@@ -56,7 +60,8 @@ export default function Athondle() {
     };
   };
 
-  const checkIfCorrect = (worker) => {
+  // Função para verificar se o funcionário escolhido é igual ao funcionário do dia
+  const checkIfWin = (worker) => {
     if (!dailyWorker) return false;
 
     return (
@@ -92,7 +97,7 @@ export default function Athondle() {
       setWorkerChoosed((prevChoosed) => [...prevChoosed, worker]);
     }
 
-    if (checkIfCorrect(worker)) {
+    if (checkIfWin(worker)) {
       setSymbolAge("")
       setWinMessage("Vitória");
     } else {

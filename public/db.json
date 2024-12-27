@@ -317,12 +317,12 @@
     }
   ],
   "daily": {
-    "id": "20",
-    "nome": "alex",
-    "idade": "21",
-    "sexo": "homem",
-    "setor": "n2",
+    "id": "33",
+    "nome": "vitoria ferreira",
+    "idade": "19",
+    "sexo": "mulher",
+    "setor": "n1",
     "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734223257/alex_zdityq.jpg"
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734745175/vitoria-ferreira_g0c8v1.png"
   }
 }
