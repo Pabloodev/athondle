@@ -128,17 +128,17 @@ export default function Athondle() {
       {filtredWorker.length > 0 && (
         <SelectWorker filtredWorker={filtredWorker} handleClick={handleClick} />
       )}
+      {partialMatchMessage && (
+        <div className="partialMatchMessage">
+          <span>{partialMatchMessage}</span>
+        </div>
+      )}
       {isClicked && (
         <ResultWorker
           workerChoosed={workerChoosed}
           checkAttributes={checkAttributes}
           symbolAge={symbolAge}
         />
-      )}
-      {partialMatchMessage && (
-        <div className="partialMatchMessage">
-          <span>{partialMatchMessage}</span>
-        </div>
       )}
       {winMessage && (
         <div className="winMessage">

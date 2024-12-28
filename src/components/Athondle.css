@@ -72,6 +72,10 @@ h2 {
   margin-bottom: 30px;
 }
 
+.partialMatchMessage {
+  margin-top: 30px;
+}
+
 .partialMatchMessage span {
   color: rgb(233, 253, 16);
 }
