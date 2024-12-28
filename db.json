@@ -314,15 +314,24 @@
       "setor": "n1",
       "cargo": "analista junior",
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734745171/henrique_x50zxk.jpg"
+    },
+    {
+      "id": "36",
+      "nome": "sthefany mota",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300993/sem-foto_ia5yk2.jpg"
     }
   ],
   "daily": {
-    "id": "33",
-    "nome": "vitoria ferreira",
+    "id": "23",
+    "nome": "gabriela",
     "idade": "19",
     "sexo": "mulher",
-    "setor": "n1",
-    "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734745175/vitoria-ferreira_g0c8v1.png"
+    "setor": "comercial",
+    "cargo": "promotor de vendas",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/gabriela_zsxkdx.jpg"
   }
 }
