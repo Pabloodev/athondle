@@ -326,12 +326,12 @@
     }
   ],
   "daily": {
-    "id": "23",
-    "nome": "gabriela",
-    "idade": "19",
-    "sexo": "mulher",
-    "setor": "comercial",
-    "cargo": "promotor de vendas",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/gabriela_zsxkdx.jpg"
+    "id": "7",
+    "nome": "kaicky",
+    "idade": "20",
+    "sexo": "homem",
+    "setor": "n2",
+    "cargo": "analista junior",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190555/kaicky_qppe0j.jpg"
   }
 }
