@@ -326,12 +326,12 @@
     }
   ],
   "daily": {
-    "id": "7",
-    "nome": "kaicky",
-    "idade": "20",
-    "sexo": "homem",
-    "setor": "n2",
+    "id": "31",
+    "nome": "keyla",
+    "idade": "23",
+    "sexo": "mulher",
+    "setor": "financeiro",
     "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190555/kaicky_qppe0j.jpg"
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734478384/keyla_glluty.jpg"
   }
 }
