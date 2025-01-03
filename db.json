@@ -1,0 +1,337 @@
+{
+  "workers": [
+    {
+      "id": "1",
+      "nome": "felipe",
+      "idade": "29",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190551/felipe_hdzi6s.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "pablo",
+      "idade": "20",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190551/pablo_b6s5fz.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "caina",
+      "idade": "21",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista pleno",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190550/caina_cuyjam.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "bruno",
+      "idade": "23",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190549/bruno_c74uvj.jpg"
+    },
+    {
+      "id": "5",
+      "nome": "vitoria sena",
+      "idade": "25",
+      "sexo": "mulher",
+      "setor": "n2",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190549/vitoria_ynnhgb.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "pedro",
+      "idade": "19",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190556/pedro_evgnbv.jpg"
+    },
+    {
+      "id": "7",
+      "nome": "kaicky",
+      "idade": "20",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190555/kaicky_qppe0j.jpg"
+    },
+    {
+      "id": "8",
+      "nome": "matheus",
+      "idade": "21",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190558/matheus_oydhmd.jpg"
+    },
+    {
+      "id": "9",
+      "nome": "vinicius barreto",
+      "idade": "21",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190557/vinicius-barreto_jlfpaz.jpg"
+    },
+    {
+      "id": "10",
+      "nome": "guilherme",
+      "idade": "24",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "analista pleno",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190554/guilherme_ltzota.jpg"
+    },
+    {
+      "id": "11",
+      "nome": "ingrid",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "financeiro",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190553/ingrid_dogqud.jpg"
+    },
+    {
+      "id": "12",
+      "nome": "beatriz",
+      "idade": "24",
+      "sexo": "mulher",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190552/beatriz_j8vpmd.jpg"
+    },
+    {
+      "id": "13",
+      "nome": "gustavo",
+      "idade": "18",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733786715/gustavo_ngjpvc.jpg"
+    },
+    {
+      "id": "14",
+      "nome": "vinicius alves",
+      "idade": "26",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista pleno",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733272315/vinicius-alves_mthwbo.jpg"
+    },
+    {
+      "id": "15",
+      "nome": "carolina",
+      "idade": "23",
+      "sexo": "mulher",
+      "setor": "redes",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410234/carolina_qfdqqo.jpg"
+    },
+    {
+      "id": "16",
+      "nome": "bianca morelis",
+      "idade": "26",
+      "sexo": "mulher",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410434/bianca_naadtx.jpg"
+    },
+    {
+      "id": "17",
+      "nome": "samuel",
+      "idade": "21",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410729/samuel_qk4mgo.jpg"
+    },
+    {
+      "id": "18",
+      "nome": "jeferson",
+      "idade": "43",
+      "sexo": "homem",
+      "setor": "qualidade",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733536152/jeferson_yznxzt.jpg"
+    },
+    {
+      "id": "19",
+      "nome": "hillary",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733536152/hillary_cl64g2.jpg"
+    },
+    {
+      "id": "20",
+      "nome": "alex",
+      "idade": "21",
+      "sexo": "homem",
+      "setor": "n2",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734223257/alex_zdityq.jpg"
+    },
+    {
+      "id": "21",
+      "nome": "rai",
+      "idade": "25",
+      "sexo": "homem",
+      "setor": "NOC",
+      "cargo": "Suporte III",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733700197/rai_oecqml.jpg"
+    },
+    {
+      "id": "22",
+      "nome": "brunelle",
+      "idade": "22",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734223257/brunelle_qdxcpr.jpg"
+    },
+    {
+      "id": "23",
+      "nome": "gabriela",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "comercial",
+      "cargo": "promotor de vendas",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/gabriela_zsxkdx.jpg"
+    },
+    {
+      "id": "24",
+      "nome": "manuela",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "comercial",
+      "cargo": "promotor de vendas",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/manuela_wrlyym.jpg"
+    },
+    {
+      "id": "25",
+      "nome": "joao",
+      "idade": "22",
+      "sexo": "homem",
+      "setor": "qualidade",
+      "cargo": "auxiliar adm",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052968/joao_fpg1s2.jpg"
+    },
+    {
+      "id": "26",
+      "nome": "daniel barbosa",
+      "idade": "18",
+      "sexo": "homem",
+      "setor": "comercial",
+      "cargo": "promotor de vendas",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/daniel_hjx11w.jpg"
+    },
+    {
+      "id": "27",
+      "nome": "geovanna",
+      "idade": "22",
+      "sexo": "mulher",
+      "setor": "comercial",
+      "cargo": "promotor de vendas",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/geovanna_e9e42e.jpg"
+    },
+    {
+      "id": "28",
+      "nome": "ana paula jesus",
+      "idade": "33",
+      "sexo": "mulher",
+      "setor": "comercial",
+      "cargo": "promotor de vendas",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300993/sem-foto_ia5yk2.jpg"
+    },
+    {
+      "id": "29",
+      "nome": "leidiane",
+      "idade": "25",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "auxiliar adm",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/leidiane_frowsc.jpg"
+    },
+    {
+      "id": "30",
+      "nome": "ariane",
+      "idade": "25",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300826/ariane_fguqwy.jpg"
+    },
+    {
+      "id": "31",
+      "nome": "keyla",
+      "idade": "23",
+      "sexo": "mulher",
+      "setor": "financeiro",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734478384/keyla_glluty.jpg"
+    },
+    {
+      "id": "32",
+      "nome": "daniel delbon",
+      "idade": "26",
+      "sexo": "homem",
+      "setor": "qualidade",
+      "cargo": "auxiliar adm",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734652774/daniel_pkt4pr.jpg"
+    },
+    {
+      "id": "33",
+      "nome": "vitoria ferreira",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734745175/vitoria-ferreira_g0c8v1.png"
+    },
+    {
+      "id": "34",
+      "nome": "bianca marques",
+      "idade": "18",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734745216/bianca-marques_pycw6v.png"
+    },
+    {
+      "id": "35",
+      "nome": "henrique richert",
+      "idade": "19",
+      "sexo": "homem",
+      "setor": "n1",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734745171/henrique_x50zxk.jpg"
+    },
+    {
+      "id": "36",
+      "nome": "sthefany mota",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300993/sem-foto_ia5yk2.jpg"
+    }
+  ],
+  "daily": {
+    "id": "31",
+    "nome": "keyla",
+    "idade": "23",
+    "sexo": "mulher",
+    "setor": "financeiro",
+    "cargo": "analista junior",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734478384/keyla_glluty.jpg"
+  }
+}
