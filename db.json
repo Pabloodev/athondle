@@ -326,12 +326,12 @@
     }
   ],
   "daily": {
-    "id": "15",
-    "nome": "carolina",
-    "idade": "23",
-    "sexo": "mulher",
-    "setor": "redes",
+    "id": "2",
+    "nome": "pablo",
+    "idade": "20",
+    "sexo": "homem",
+    "setor": "n2",
     "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410234/carolina_qfdqqo.jpg"
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190551/pablo_b6s5fz.jpg"
   }
 }
