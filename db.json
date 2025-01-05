@@ -326,12 +326,12 @@
     }
   ],
   "daily": {
-    "id": "2",
-    "nome": "pablo",
-    "idade": "20",
-    "sexo": "homem",
-    "setor": "n2",
+    "id": "34",
+    "nome": "bianca marques",
+    "idade": "18",
+    "sexo": "mulher",
+    "setor": "n1",
     "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190551/pablo_b6s5fz.jpg"
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734745216/bianca-marques_pycw6v.png"
   }
 }
