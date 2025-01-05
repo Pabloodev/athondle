@@ -17,7 +17,6 @@ export default function Athondle() {
   const [workerChoosed, setWorkerChoosed] = useState([]);
   const [winMessage, setWinMessage] = useState("");
   const [partialMatchMessage, setPartialMatchMessage] = useState("");
-
   const [symbolAge, setSymbolAge] = useState();
 
   useEffect(() => {
