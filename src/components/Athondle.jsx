@@ -8,7 +8,6 @@ import SelectWorker from "./SelectWorker/SelectWorker";
 import ResultWorker from "./ResultWorker/ResultWorker";
 import Footer from "./Footer/Footer";
 
-
 export default function Athondle() {
   const [data, setData] = useState([]);
   const [inputedWorker, setInputedWorker] = useState("");
@@ -19,7 +18,7 @@ export default function Athondle() {
   const [winMessage, setWinMessage] = useState("");
   const [partialMatchMessage, setPartialMatchMessage] = useState("");
 
-  const [symbolAge, setSymbolAge] = useState()
+  const [symbolAge, setSymbolAge] = useState();
 
   useEffect(() => {
     const fetchWorkers = async () => {
@@ -35,9 +34,8 @@ export default function Athondle() {
     fetchWorkers();
   }, []);
 
-  // Função para verificar se a idade do funcionário escolhido é maior ou menor que a idade do funcionário do dia
   const getAgeArrow = (idade) => {
-    setSymbolAge("")
+    setSymbolAge("");
     if (idade < dailyWorker.idade) {
       setSymbolAge("🔼");
     } else if (idade > dailyWorker.idade) {
@@ -45,9 +43,8 @@ export default function Athondle() {
     } else {
       setSymbolAge("");
     }
-  }
-  
-  // Função para verificar se os atributos do funcionário escolhido são iguais aos atributos do funcionário do dia
+  };
+
   const checkAttributes = (worker) => {
     if (!dailyWorker) return;
 
@@ -60,7 +57,6 @@ export default function Athondle() {
     };
   };
 
-  // Função para verificar se o funcionário escolhido é igual ao funcionário do dia
   const checkIfWin = (worker) => {
     if (!dailyWorker) return false;
 
@@ -74,11 +70,10 @@ export default function Athondle() {
   };
 
   const handleChange = (e) => {
-
     const newInputedValue = e.target.value;
     setInputedWorker(newInputedValue);
 
-    if (newInputedValue.trim() !== "") {
+    if (newInputedValue.trim() !== "" && data.length > 0) {
       setFiltredWorker(
         data.filter((worker) =>
           worker.nome.toLowerCase().startsWith(newInputedValue.toLowerCase())
@@ -90,7 +85,7 @@ export default function Athondle() {
   };
 
   const handleClick = (worker) => {
-    setPartialMatchMessage("")
+    setPartialMatchMessage("");
     setIsClicked(true);
 
     if (!workerChoosed.includes(worker)) {
@@ -98,10 +93,10 @@ export default function Athondle() {
     }
 
     if (checkIfWin(worker)) {
-      setSymbolAge("")
+      setSymbolAge("");
       setWinMessage("Vitória");
     } else {
-      getAgeArrow(worker.idade)
+      getAgeArrow(worker.idade);
       const attributes = checkAttributes(worker);
       const allMatchExceptName =
         attributes.sexo &&
