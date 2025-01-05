@@ -326,12 +326,12 @@
     }
   ],
   "daily": {
-    "id": "34",
-    "nome": "bianca marques",
-    "idade": "18",
+    "id": "5",
+    "nome": "vitoria sena",
+    "idade": "25",
     "sexo": "mulher",
-    "setor": "n1",
-    "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734745216/bianca-marques_pycw6v.png"
+    "setor": "n2",
+    "cargo": "supervisao",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190549/vitoria_ynnhgb.jpg"
   }
 }
