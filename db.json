@@ -326,12 +326,12 @@
     }
   ],
   "daily": {
-    "id": "8",
-    "nome": "matheus",
-    "idade": "21",
-    "sexo": "homem",
-    "setor": "redes",
+    "id": "30",
+    "nome": "ariane",
+    "idade": "25",
+    "sexo": "mulher",
+    "setor": "n1",
     "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190558/matheus_oydhmd.jpg"
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300826/ariane_fguqwy.jpg"
   }
 }
