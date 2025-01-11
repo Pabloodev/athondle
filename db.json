@@ -326,12 +326,12 @@
     }
   ],
   "daily": {
-    "id": "29",
-    "nome": "leidiane",
-    "idade": "25",
-    "sexo": "mulher",
-    "setor": "n1",
+    "id": "25",
+    "nome": "joao",
+    "idade": "22",
+    "sexo": "homem",
+    "setor": "qualidade",
     "cargo": "auxiliar adm",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/leidiane_frowsc.jpg"
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052968/joao_fpg1s2.jpg"
   }
 }
