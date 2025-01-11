@@ -326,7 +326,6 @@
     }
   ],
   "daily": {
-<<<<<<< HEAD
     "id": "29",
     "nome": "leidiane",
     "idade": "25",
@@ -335,14 +334,4 @@
     "cargo": "auxiliar adm",
     "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/leidiane_frowsc.jpg"
   }
-=======
-      "id": "29",
-      "nome": "leidiane",
-      "idade": "25",
-      "sexo": "mulher",
-      "setor": "n1",
-      "cargo": "auxiliar adm",
-      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/leidiane_frowsc.jpg"
-    }
->>>>>>> 2b713d9dee992ec0dc4c5bbcc66d534ea8c70c23
 }
