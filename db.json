@@ -326,12 +326,12 @@
     }
   ],
   "daily": {
-    "id": "25",
-    "nome": "joao",
-    "idade": "22",
+    "id": "3",
+    "nome": "caina",
+    "idade": "21",
     "sexo": "homem",
-    "setor": "qualidade",
-    "cargo": "auxiliar adm",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052968/joao_fpg1s2.jpg"
+    "setor": "n2",
+    "cargo": "analista pleno",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190550/caina_cuyjam.jpg"
   }
 }
