@@ -1,0 +1,10 @@
+.popup {
+  color: white;
+  position: fixed;
+  top: 2%;
+  width: 500px;
+  padding: 15px;
+  text-align: center;
+  border: 0.3px solid white;
+  background-color: #1d1c1c;
+}

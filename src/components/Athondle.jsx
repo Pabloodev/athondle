@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { SquareChevronUp } from "lucide-react";
 
 import Header from "./Header/Header";
+import Popup from "./popup/popup";
 import InputWorker from "./InputWorker/InputWorker";
 import SelectWorker from "./SelectWorker/SelectWorker";
 import ResultWorker from "./ResultWorker/ResultWorker";
@@ -118,6 +119,7 @@ export default function Athondle() {
   return (
     <div className="gameContainer">
       <Header />
+      <Popup />
       <InputWorker inputedWorker={inputedWorker} handleChange={handleChange} />
       {filtredWorker.length > 0 && (
         <SelectWorker filtredWorker={filtredWorker} handleClick={handleClick} />
