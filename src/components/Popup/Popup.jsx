@@ -18,7 +18,7 @@ const Popup = () => {
   return (
     popupOn && (
       <div className={styles.popup}>
-        <p>Este jogo está sempre atualizando para melhorar a usuabilidade do jogador, seu feedback é valioso para nós!</p>
+        <p>Este jogo está sempre sendo atualizado para melhorar a experiência do jogador. Seu feedback é valioso para nós!</p>
       </div>
     )
   );
