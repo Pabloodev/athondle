@@ -323,15 +323,24 @@
       "setor": "n1",
       "cargo": "analista junior",
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300993/sem-foto_ia5yk2.jpg"
+    },
+    {
+      "id": "37",
+      "nome": "marcio guimaraes",
+      "idade": "40",
+      "sexo": "homem",
+      "setor": "redes",
+      "cargo": "supervisao",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1736813367/marcio_sigyco.jpg"
     }
   ],
   "daily": {
-    "id": "3",
-    "nome": "caina",
-    "idade": "21",
+    "id": "37",
+    "nome": "marcio guimaraes",
+    "idade": "40",
     "sexo": "homem",
-    "setor": "n2",
-    "cargo": "analista pleno",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190550/caina_cuyjam.jpg"
+    "setor": "redes",
+    "cargo": "supervisao",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1736813367/marcio_sigyco.jpg"
   }
 }
