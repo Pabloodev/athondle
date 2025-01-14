@@ -9,7 +9,7 @@ const Popup = () => {
     setPopUpOn(true)
     setTimeout(() => {
       setPopUpOn(false)
-    }, 3500);
+    }, 4500);
 
   },[])
 
