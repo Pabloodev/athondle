@@ -335,12 +335,12 @@
     }
   ],
   "daily": {
-    "id": "37",
-    "nome": "marcio guimaraes",
-    "idade": "40",
-    "sexo": "homem",
-    "setor": "redes",
+    "id": "19",
+    "nome": "hillary",
+    "idade": "19",
+    "sexo": "mulher",
+    "setor": "n1",
     "cargo": "supervisao",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1736813367/marcio_sigyco.jpg"
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733536152/hillary_cl64g2.jpg"
   }
 }
