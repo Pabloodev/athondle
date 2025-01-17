@@ -335,12 +335,12 @@
     }
   ],
   "daily": {
-    "id": "27",
-    "nome": "geovanna",
-    "idade": "22",
-    "sexo": "mulher",
-    "setor": "comercial",
-    "cargo": "promotor de vendas",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/geovanna_e9e42e.jpg"
+    "id": "21",
+    "nome": "rai",
+    "idade": "25",
+    "sexo": "homem",
+    "setor": "NOC",
+    "cargo": "Suporte III",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733700197/rai_oecqml.jpg"
   }
 }
