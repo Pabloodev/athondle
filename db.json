@@ -335,12 +335,12 @@
     }
   ],
   "daily": {
-    "id": "21",
-    "nome": "rai",
-    "idade": "25",
+    "id": "10",
+    "nome": "guilherme",
+    "idade": "24",
     "sexo": "homem",
-    "setor": "NOC",
-    "cargo": "Suporte III",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733700197/rai_oecqml.jpg"
+    "setor": "redes",
+    "cargo": "analista pleno",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190554/guilherme_ltzota.jpg"
   }
 }
