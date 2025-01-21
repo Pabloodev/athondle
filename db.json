@@ -332,15 +332,24 @@
       "setor": "redes",
       "cargo": "supervisao",
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1736813367/marcio_sigyco.jpg"
+    },
+    {
+      "id": "38",
+      "nome": "Lauanny Yasmin",
+      "idade": "19",
+      "sexo": "mulher",
+      "setor": "n1",
+      "cargo": "analista junior",
+      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1737503622/lauanny_lqvelz.jpg"
     }
   ],
   "daily": {
-    "id": "10",
-    "nome": "guilherme",
-    "idade": "24",
-    "sexo": "homem",
-    "setor": "redes",
-    "cargo": "analista pleno",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190554/guilherme_ltzota.jpg"
+    "id": "38",
+    "nome": "Lauanny Yasmin",
+    "idade": "19",
+    "sexo": "mulher",
+    "setor": "n1",
+    "cargo": "analista junior",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1737503622/lauanny_lqvelz.jpg"
   }
 }
