@@ -344,12 +344,12 @@
     }
   ],
   "daily": {
-    "id": "38",
-    "nome": "Lauanny Yasmin",
-    "idade": "19",
-    "sexo": "mulher",
-    "setor": "n1",
+    "id": "13",
+    "nome": "gustavo",
+    "idade": "18",
+    "sexo": "homem",
+    "setor": "n2",
     "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1737503622/lauanny_lqvelz.jpg"
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733786715/gustavo_ngjpvc.jpg"
   }
 }
