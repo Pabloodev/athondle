@@ -26,7 +26,7 @@ export default function Athondle() {
         const response = await fetch("./db.json");
         const data = await response.json();
         setData(data.workers);
-        setDailyWorker(data.dailyWorker);
+        setDailyWorker(data.daily);
       } catch (error) {
         console.error("Erro ao carregar os dados:", error);
       }
