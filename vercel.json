@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/updateDailyWorker",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}
