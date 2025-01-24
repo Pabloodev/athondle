@@ -344,12 +344,12 @@
     }
   ],
   "daily": {
-    "id": "13",
-    "nome": "gustavo",
+    "id": "26",
+    "nome": "daniel barbosa",
     "idade": "18",
     "sexo": "homem",
-    "setor": "n2",
-    "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733786715/gustavo_ngjpvc.jpg"
+    "setor": "comercial",
+    "cargo": "promotor de vendas",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/daniel_hjx11w.jpg"
   }
 }
