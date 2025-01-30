@@ -344,12 +344,12 @@
     }
   ],
   "daily": {
-    "id": "14",
-    "nome": "vinicius alves",
-    "idade": "26",
+    "id": "4",
+    "nome": "bruno",
+    "idade": "23",
     "sexo": "homem",
     "setor": "n2",
-    "cargo": "analista pleno",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733272315/vinicius-alves_mthwbo.jpg"
+    "cargo": "supervisao",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190549/bruno_c74uvj.jpg"
   }
 }
