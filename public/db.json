@@ -344,12 +344,12 @@
     }
   ],
   "daily": {
-    "id": "4",
-    "nome": "bruno",
-    "idade": "23",
+    "id": "3",
+    "nome": "caina",
+    "idade": "21",
     "sexo": "homem",
     "setor": "n2",
-    "cargo": "supervisao",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190549/bruno_c74uvj.jpg"
+    "cargo": "analista pleno",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733190550/caina_cuyjam.jpg"
   }
 }
