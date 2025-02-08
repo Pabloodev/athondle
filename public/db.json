@@ -344,12 +344,12 @@
     }
   ],
   "daily": {
-    "id": "29",
-    "nome": "leidiane",
+    "id": "30",
+    "nome": "ariane",
     "idade": "25",
     "sexo": "mulher",
     "setor": "n1",
-    "cargo": "auxiliar adm",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/leidiane_frowsc.jpg"
+    "cargo": "analista junior",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300826/ariane_fguqwy.jpg"
   }
 }
