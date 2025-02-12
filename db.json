@@ -344,12 +344,12 @@
     }
   ],
   "daily": {
-    "id": "16",
-    "nome": "bianca morelis",
+    "id": "32",
+    "nome": "daniel delbon",
     "idade": "26",
-    "sexo": "mulher",
-    "setor": "n2",
-    "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733410434/bianca_naadtx.jpg"
+    "sexo": "homem",
+    "setor": "qualidade",
+    "cargo": "auxiliar adm",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734652774/daniel_pkt4pr.jpg"
   }
 }
