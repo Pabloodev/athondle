@@ -8,7 +8,7 @@
   border: 1px solid rgba(255, 255, 255, 0.308);
   border-radius: 15px;
   padding: 2px;
-  background-color: #141516;
+  background-color: #161415;
 }
 
 .selectWorker button img {
@@ -31,5 +31,5 @@
 }
 
 .selectWorker button:hover {
-  background-color: #1c1f22;
+  background-color: rgb(34, 36, 39)
 }

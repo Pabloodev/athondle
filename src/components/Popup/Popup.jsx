@@ -11,7 +11,7 @@ const Popup = () => {
     setPopUpOn(true);
     setTimeout(() => {
       setPopUpOn(false);
-    }, 4500);
+    }, 5500);
   }, []);
 
   return (
@@ -23,8 +23,7 @@ const Popup = () => {
         className={styles.popup}
       >
         <p>
-          Este jogo está sempre sendo atualizado para melhorar a experiência do
-          jogador. Seu feedback é valioso para nós!
+          Algum dado está desatualizado? deixa no feedback que atualizo assim que der!
         </p>
       </motion.div>
     )
