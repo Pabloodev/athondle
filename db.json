@@ -244,15 +244,6 @@
       "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734052969/geovanna_e9e42e.jpg"
     },
     {
-      "id": "28",
-      "nome": "ana paula jesus",
-      "idade": "33",
-      "sexo": "mulher",
-      "setor": "comercial",
-      "cargo": "promotor de vendas",
-      "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734300993/sem-foto_ia5yk2.jpg"
-    },
-    {
       "id": "29",
       "nome": "leidiane",
       "idade": "25",
@@ -344,12 +335,12 @@
     }
   ],
   "daily": {
-    "id": "33",
-    "nome": "vitoria ferreira",
+    "id": "19",
+    "nome": "hillary",
     "idade": "19",
     "sexo": "mulher",
     "setor": "n1",
-    "cargo": "analista junior",
-    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1734745175/vitoria-ferreira_g0c8v1.png"
+    "cargo": "supervisao",
+    "img": "https://res.cloudinary.com/djzxb81oi/image/upload/v1733536152/hillary_cl64g2.jpg"
   }
 }
